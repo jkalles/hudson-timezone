@@ -11,12 +11,12 @@
             "file": "fonts/Arial-Black.ttf"
         },
         {
-            "defName": "FONT_ARIAL_16",
+            "defName": "FONT_ARIAL_20",
             "type": "font",
             "file": "fonts/Arial.ttf"
         },
         {
-            "defName": "FONT_ARIAL_28",
+            "defName": "FONT_ARIAL_16",
             "type": "font",
             "file": "fonts/Arial.ttf"
         }

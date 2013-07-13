@@ -125,18 +125,18 @@ timezone_layer_update(
 	graphics_text_draw(ctx,
 		buf,
 		font_thick,
-		GRect(0, h/3, w, 2*h/3),
+		GRect(10, h/3, w, 2*h/3),
 		GTextOverflowModeTrailingEllipsis,
-		GTextAlignmentCenter,
+		GTextAlignmentLeft,
 		NULL
 	);
 	
 	graphics_text_draw(ctx,
 		bup,
 		font_slim,
-		GRect(0, h/3, w, 2*h/3),
+		GRect(-11, (h/3)+10, w, 2*h/3),
 		GTextOverflowModeTrailingEllipsis,
-		GTextAlignmentCenter,
+		GTextAlignmentRight,
 		NULL
 	);
 	
@@ -175,7 +175,7 @@ handle_init(
 
 	font_thin = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_16));
 	font_thick = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_BLACK_30));
-	font_slim = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_28));
+	font_slim = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ARIAL_20));
 
 	for (int i = 0 ; i < NUM_TIMEZONES ; i++)
 	{
