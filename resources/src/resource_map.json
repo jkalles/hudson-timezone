@@ -1,14 +1,9 @@
 {
     "media": [
         {
-            "defName": "FONT_ARIAL_28",
-            "type": "font",
-            "file": "fonts/Arial.ttf"
-        },
-        {
-            "defName": "FONT_ARIAL_16",
-            "type": "font",
-            "file": "fonts/Arial.ttf"
+            "defName": "IMAGE_MENU_ICON",
+            "type": "png",
+            "file": "images/menu_icon.png"
         },
         {
             "defName": "FONT_ARIAL_BLACK_30",
@@ -16,9 +11,14 @@
             "file": "fonts/Arial-Black.ttf"
         },
         {
-            "defName": "IMAGE_MENU_ICON",
-            "type": "png",
-            "file": "images/menu_icon.png"
+            "defName": "FONT_ARIAL_16",
+            "type": "font",
+            "file": "fonts/Arial.ttf"
+        },
+        {
+            "defName": "FONT_ARIAL_28",
+            "type": "font",
+            "file": "fonts/Arial.ttf"
         }
     ],
     "friendlyVersion": "VERSION",
