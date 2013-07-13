@@ -18,8 +18,8 @@
 
 PBL_APP_INFO(
 	UUID,
-	"TriZone",
-	"Gates",
+	"Timezone",
+	"hudson",
 	1, 0, // Version
 	RESOURCE_ID_IMAGE_MENU_ICON,
 	APP_INFO_WATCH_FACE
