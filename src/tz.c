@@ -42,9 +42,9 @@ static const int gmt_offset = -5 * 60;
 
 static timezone_t timezones[NUM_TIMEZONES] =
 {
-	{ .name = "California", .offset = -8 * 60 },
-	{ .name = "New York", .offset = -5 * 60 },
-	{ .name = "London", .offset = +0 * 60 },
+	{ .name = "Seattle", .offset = -7 * 60 },
+	{ .name = "Boston", .offset = -4 * 60 },
+	{ .name = "Melbourne", .offset = +10 * 60 },
 };
 
 
