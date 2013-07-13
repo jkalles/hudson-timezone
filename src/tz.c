@@ -35,7 +35,7 @@ typedef struct
 
 
 // Local timezone GMT offset
-static const int gmt_offset = -5 * 60;
+static const int gmt_offset = -7 * 60;
 
 #define NUM_TIMEZONES 3
 #define LAYER_HEIGHT (PEBBLE_SCREEN_HEIGHT / NUM_TIMEZONES)
